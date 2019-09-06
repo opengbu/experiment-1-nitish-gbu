@@ -1,0 +1,32 @@
+// Nitish
+//Bsc(H) Physics
+// Roll no-19/BHP/015
+// PROGRAME FOR GREATEST OF THREE
+
+
+#include <iostream>6
+using namespace std;
+int main()
+{    
+    float i1, i2, i3;
+    cout<<"give the value of i1  ";
+    cin>>i1;
+    
+    cout<<"give the value of i2  ";
+    cin>>i2;
+    cout<< "give the value of i3  ";
+    cin>>i3;
+    
+    if(i1 > i2 && i1 > i3)
+    {
+        cout << "Largest number: " << i1;
+    }
+    if(i2 > i1 && i2 >  i3)
+    {
+        cout << "Largest number: " << i2;
+    }
+    if(i3 > i1 && i3 >= i2) {
+        cout << "Largest number is  " << i3;
+    }
+    return 0;
+}
